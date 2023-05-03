@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  background-color: darkcyan;
+}
+
+h1,
+h2 {
+  margin-bottom: 15px;
+  color: cyan;
+}
+
+h2 i {
+  margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 30px;
+}
+
+.navbar {
+  height: 60px;
+  background-color: darkcyan;
+  color: white;
+}
+
+.navbar .logo {
+  font-size: 32px;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  color: cyan;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar ul li {
+  padding: 20px;
+}
+
+.navbar a {
+  color: white;
+}
+
+.header {
+  min-height: 500px;
+  background-color: darkcyan;
+  color: white;
+}
+
+.header img {
+  max-width: 300px;
+  padding: 20px 50px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 500px;
+}
+
+.boxes .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  flex: 1;
+  padding: 15px 20px;
+  box-shadow: 1px 1px 10px cyan;
+  border-radius: 10px;
+  margin: 100px 10px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .boxes .container {
+    display: block;
+    text-align: center;
+  }
+}
