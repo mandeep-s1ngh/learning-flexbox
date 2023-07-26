@@ -6,7 +6,27 @@ This is a web page built using CSS Flexbox following Brad Traversy's 'Flexbox Cr
 
 The purpose of this website was to allow me to build up a better understanding of flexbox and it's fundamentals.
 
-A hosted version of the site can be found here: https://mandeep-s1ngh.github.io/learning-flexbox/
+---
+
+## <ins>Screenshot</ins>
+
+![App Screenshot](./screenshot.png)
+
+---
+
+## <ins>Tech Stack</ins>
+
+- HTML
+- CSS
+- Flexbox
+
+---
+
+## <ins>Hosted Version</ins>
+
+https://mandeep-s1ngh.github.io/learning-flexbox/
+
+---
 
 ## <ins>Local Setup</ins>
 
